@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>KLG.Drawing.SkiaSharp</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Deleeete</Authors>
+    <Company>KLG Science</Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="KLG.Drawing" Version="0.1.0" />
+    <PackageReference Include="SkiaSharp" Version="2.88.7" />
+  </ItemGroup>
+
+</Project>
